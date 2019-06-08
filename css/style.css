@@ -1,26 +1,66 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 20px
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+}
+
+p {
+  font-size: 100%; /* 16px */
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: blue;
   float: left;
   position: fixed;
   width: 100%;
 }
 
 .logo {
+
   margin: 20px;
   width: 100px;
 }
 
+a:link { color:white; text-decoration: none;} /* unvisited */
+a:visited { color:orange; text-decoration: none; } /* visited */
+a:hover { color:#a0d3f7; text-decoration: none;} /* mouse over */
+a:active { color:red;text-decoration: none; } /* selected */
+
+h1 {
+  font-size: 4em;
+  font-family: Helvetica;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.hovno{
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.caption {
+  font-size: 0.8em;
+  color: #485259;
+  text-align: right;
+}
 .large-pic {
   width: 100%;
 }
 
 .medium-pic {
-  width: 70%;
+
+  width: 100%;
+  text-align: center;
 }
 
 .left, .right {
@@ -28,8 +68,6 @@ nav {
   width: 50%;
 }
 
-.right {
-  float: right;
 }
 
 ul {
@@ -49,4 +87,17 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.hovno{
+  line-height: 20px
+  font-weight: bold;
+}
+
+.story-text {
+  line-height: 20px;
+}
+
+.author{
+  font-weight: bold;
 }
